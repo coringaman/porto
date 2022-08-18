@@ -1,0 +1,189 @@
+<!DOCTYPE html> <!--INFORMA AO NEVEGADOR QUE ESTÁ SENDO USADO A VERSÃO HTML 5-->
+<html lang="pt-br"> <!--INFORMA O IDIOMA DO SITE-->
+
+<head> <!--CONFIGURAÇÕES DO SITE-->
+    <meta charset="UTF-8"> <!--ANÚNCIO DO PADRÃO DE ESCRITA DA WEB-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--INSCRIÇÃO DE COMPATIBILIDADE ENTRE INTERNET EXPLORER E EDGE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--INSCRIÇÃO DE COMPATIBILIDADE ENTRE DISPOSITIVOS DESKTOP E MOBILE-->
+    <link rel="stylesheet" type="text/css" href="styles.css" /> <!--LINK COM O CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--REFERÊNCIA DAS FONTES TIPOGRÁFICAS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--REFERÊNCIA DAS FONTES TIPOGRÁFICAS-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet"> <!--REFERÊNCIA DAS FONTES TIPOGRÁFICAS-->
+    <title>PORTOFINO</title> <!--TÍTULO DO SITE-->
+</head>
+
+<body> <!--ONDE ESCREVE AS PARTES APARENTES NO SITE-->
+    <div class="upper-box">
+        <div class="header">
+            <h2 href="index.html" class="title-header">PORTOFINO</h2>
+            <a href="#about-us" class="link-header">Quem Somos</a>
+            <a href="#atuacao" class="link-header">Atuação</a>
+            <a href="portfolio.html" class="link-header">Portfólio</a>
+            <a href="social.html" class="link-header">Social</a>
+            <a href="contato.html" class="link-header">Contato</a>
+            <!-- <a class="link-header" onclick="formtrigger()">Contato</a> -->
+        </div>
+
+
+        <img id="portologo" src="./PORTO.png">
+
+        <form id="contact-form" action="https://formsubmit.co/costa.masc@gmail.com" method="POST"> 
+            <h3 class="form-header">Entre em contato</h3>
+
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Digite Seu Nome" required/>
+
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" name="E-mail" placeholder="Digite Seu E-mail" required/>
+
+            </label>
+
+            <label>
+                Fale Conosco
+                <textarea name="Info" placeholder="Sua mensagem aqui..."></textarea>
+
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+
+    
+
+    <div id="about-us">
+        <h2 id="about-us-title">Sobre Nós</h2>
+        <p class="about-text">
+            A PORTO FINO EMPREENDIMENTOS, sediada na cidade de Simões Filho, iniciou suas operações em 2005 
+            e desde então vem criando laços de parceria em toda a Bahia, sempre focada em expandir ainda mais seus horizontes.
+        </p>
+        <p class="about-text">
+            Iniciou suas atividades com obras civis, mas logo em 2008 focou seus esforços para o segmento da terceirização
+            e desde então vem firmando-se cada vez mais como uma das principais prestadoras de serviço da Empresa Baiana de Águas e Saneamento - EMBASA.
+        </p>
+        <p class="about-text">
+            Com capital de giro próprio e uma equipe experiente e reconhecida no segmento, a PORTO FINO garante a qualidade de seus serviços.
+        </p>
+        <p class="about-text">
+            Visando a satisfação de seus clientes, a PORTO FINO sempre estará em busca contínua de melhorar ainda mais seu Sistema de Gestão Integrada, que engloba diversos aspectos como Qualidade, Meio Ambiente, Segurança, Tecnologia e Responsabilidade Social.
+        </p>
+        <br><br>
+        <h2 id="about-us-title">Uma Nova Conquista a Cada Ano</h2>
+        <p class="about-text">
+            Com investimento em tecnologia e pessoal, a PORTO FINO conquista e consolida-se no mercado através de um trabalho qualificado e reconhecido, percebendo-se na crescente evolução do seu número de <b>COLABORADORES</b>.
+        </p>
+        <div class="grafico-box">
+            <img id="grafico" src="./graficocolaboradores.png">
+        </div>
+        <br><br><br><br>
+        <div class="center-box">
+            <div class="card">
+                <div class="card-title">
+                    <h2 id="about-us-title">Missão</h2>
+                </div>
+                <p class="about-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2 id="about-us-title">Visão</h2>
+                </div>
+                <p class="about-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <h2 id="about-us-title">Valores</h2>
+                </div>
+                <p class="about-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="atuacao">
+        <h2 id="middle-header">Áreas de Atuação</h2>
+
+            <div class="atuacao-box">
+                <div class="design-block"></div>
+                <h3 class="atuacao-header">SERVIÇOS DE ADMINISTRAÇÃO E TRANSPORTE</h3>
+                <p class="atuacao-text">Realizamos Serviços Comerciais e Administrativos, Limpeza e Conservação, Vigilância e Segurança, Digitação de Dados, Transporte de Passageiros e Carga em Geral, etc.
+                </p>
+            </div>
+                
+            <div class="atuacao-box">
+                <div class="design-block"></div>
+                
+                <h3 class="atuacao-header">SERVIÇO DE OPERAÇÃO E MANUTENÇÃO</h3>
+                <p class="atuacao-text">Executamos Serviços de Limpeza e Desobstrução de Rede de Esgoto, Inspeção de Tubulações, Operação e Manutenção de Estação de Tratamento de Água e Esgoto, Destinação Final de Resíduos Sólidos, etc.
+                </p>
+            </div>
+
+            <div class="atuacao-box">
+                <div class="design-block"></div>
+                
+                <h3 class="atuacao-header">CONSTRUÇÃO, REPARO E RECUPERAÇÃO</h3>
+                <p class="atuacao-text">Executamos Serviços de Demolição, Desentupimentos, Jardinagem, Pintura, Alvenaria, Recuperação de Pavimentação, etc.
+                </p>
+            </div>
+
+            <div class="atuacao-box">
+                <div class="design-block"></div>
+                
+                <h3 class="atuacao-header">OBRAS CIVIS E DE SANEAMENTO</h3>
+                <p class="atuacao-text">Executamos obras de Poço Profundo, Instalações de Hidrômetros, Drenagens, Ligações Prediais de Esgoto, Terraplenagem, Dragagem, Esgotamento, Pavimentação, Urbanização, etc.
+                </p>
+            </div>
+                
+    </div>
+
+        
+
+    <div class="main-client">
+        <h2 id="main-client-title">Principal Cliente</h2>
+        <div class="embasa-box">
+            <img id="embasalogo" src="./embasa.png">
+        </div>
+    
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h4>Porto Fino Empreendimentos, Manutenção e Serviços Ltda. </h4>
+            <p>Rua Walter José Tolentino Alves - n. 130 - Sala 118</p>
+            <p>Centro Edf. Multicenter - Simões Filho - Bahia - CEP 43.700-000 </p>
+        </div>
+    </footer>
+
+
+
+    <!-- <div class="divisor1"></div>
+    <div class="divisor2"></div> -->
+
+        
+        
+
+
+
+</body>
+
+<script>
+
+let form = document.getElementById("contact-form")
+
+
+function formtrigger(){
+    form.className = "show-form"
+}
+
+</script>
+
+
+</html> <!--TAG DE FECHAMENTO-->

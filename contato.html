@@ -1,0 +1,122 @@
+<!DOCTYPE html> <!--INFORMA AO NEVEGADOR QUE ESTÁ SENDO USADO A VERSÃO HTML 5-->
+<html lang="pt-br"> <!--INFORMA O IDIOMA DO SITE-->
+
+<head> <!--CONFIGURAÇÕES DO SITE-->
+    <meta charset="UTF-8"> <!--ANÚNCIO DO PADRÃO DE ESCRITA DA WEB-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--INSCRIÇÃO DE COMPATIBILIDADE ENTRE INTERNET EXPLORER E EDGE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--INSCRIÇÃO DE COMPATIBILIDADE ENTRE DISPOSITIVOS DESKTOP E MOBILE-->
+    <link rel="stylesheet" type="text/css" href="styles_contato.css" /> <!--LINK COM O CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--REFERÊNCIA DAS FONTES TIPOGRÁFICAS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--REFERÊNCIA DAS FONTES TIPOGRÁFICAS-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet"> <!--REFERÊNCIA DAS FONTES TIPOGRÁFICAS-->
+    <title>PORTOFINO - Portfólio</title> <!--TÍTULO DO SITE-->
+</head>
+
+<body> <!--ONDE ESCREVE AS PARTES APARENTES NO SITE-->
+    <div class="upper-box">
+        <div class="header">
+            <a href="index.html" class="title-header">PORTOFINO</a>
+            <a href="index.html#about-us" class="link-header">Quem Somos</a>
+            <a href="index.html#atuacao" class="link-header">Atuação</a>
+            <a href="portfolio.html" class="link-header">Portfólio</a>
+            <a href="social.html" class="link-header">Social</a>
+            <a href="contato.html" class="link-header">Contato</a>
+            <!-- <a class="link-header" onclick="formtrigger()">Contato</a> -->
+        </div>
+
+        <!-- <h1>Contatos</h1> -->
+
+        <img id="portologo" src="./PORTO.png">
+
+    </div>
+
+    <div id="about-social">
+        <div class="social-conteiner">
+            <div class="form-container">
+                <form id="contact-form" action="https://formsubmit.co/costa.masc@gmail.com" method="POST"> 
+                    <h3 class="form-header">Entre em contato</h3>
+        
+                    <label>
+                        Nome
+                        <input type="text" name="Nome" placeholder="Digite Seu Nome" required/>
+        
+                    </label>
+        
+                    <label>
+                        E-mail
+                        <input type="email" name="E-mail" placeholder="Digite Seu E-mail" required/>
+        
+                    </label>
+        
+                    <label>
+                        Fale Conosco
+                        <textarea name="Info" placeholder="Sua mensagem aqui..."></textarea>
+        
+                    </label>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+            <div id="contratos-1">
+                <h1>Contatos</h1>
+                <!-- <h2 id="about-us-title">WhatsApp</h2> -->
+                <h3 id="about-us-subtitle">WhatsApp</h3>
+                <ul>
+                    <li class="about-text">
+                        Financeiro: (75) 99852-4519
+                    </li>
+                    <li class="about-text">
+                        Faturamento: (75) 99870-8271
+                    </li>
+                    <li class="about-text">
+                        Contratos: (75) 99811-9478
+                    </li>
+                    <br><br>
+                    <h3 id="about-us-subtitle">Canal de Denúncia</h3>
+                    <li class="about-text">
+                        denuncia@portofinoemp.com.br
+                    </li>
+
+                
+                
+        
+            </div>
+        </div>
+    </div>
+
+   
+
+    <footer>
+        <div class="footer-content">
+            <h4>Porto Fino Empreendimentos, Manutenção e Serviços Ltda. </h4>
+            <p>Rua Walter José Tolentino Alves - n. 130 - Sala 118</p>
+            <p>Centro Edf. Multicenter - Simões Filho - Bahia - CEP 43.700-000 </p>
+        </div>
+    </footer>
+
+
+
+    <!-- <div class="divisor1"></div>
+    <div class="divisor2"></div> -->
+
+        
+        
+
+
+
+</body>
+
+<!-- <script>
+
+let form = document.getElementById("contact-form")
+
+
+function formtrigger(){
+    form.className = "show-form"
+}
+
+</script> -->
+
+
+</html> <!--TAG DE FECHAMENTO-->
