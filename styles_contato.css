@@ -89,7 +89,7 @@ h1 {
     text-align: center;
 }
 
-input{
+input , select{
     display: block;
     background: #f9f9f9;
     border: 1px solid #e6e6e6;
@@ -128,6 +128,10 @@ button{
     font-size: 15px;
     font-weight: bold;
    
+}
+
+#about-contato{
+    height: 450px;
 }
 
 .atuacao-content{
@@ -171,7 +175,7 @@ button{
     float: left;
 }
 
-#contratos-1{
+#contatos-1{
     background-color: white;
     color: rgb(4, 4, 59);
     padding: 30px;
