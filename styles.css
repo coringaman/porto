@@ -221,15 +221,21 @@ li{
 }
 
 #embasalogo{
-    height: 250px;
+    height: 150px;
     position:static;
     margin-bottom: 50px;
 }
 
-.embasa-box{
-    text-align: center;
+#rioenergylogo{
+    height: 150px;
+    position:static;
+    margin-bottom: 50px;
+}
+
+.clientes-box{
     padding-top: 50px;
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer{
@@ -265,12 +271,14 @@ footer{
 .center-box{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .card{
-    width: 300px;
+    width: auto;
     border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 10px;
     background-color: white;
     
@@ -282,4 +290,14 @@ footer{
     padding: 20px;
     font-size: 15px;
     border-radius: 10px 10px 0 0;
+}
+
+.card-bottom{
+    width: auto;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 50px;
 }
