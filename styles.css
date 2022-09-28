@@ -6,16 +6,27 @@
 
 }
 
+#capsule{
+    width: 1300px;
+    margin: auto;
+}
+
 .upper-box {
     background-image: url("./vista_aerea_tratamento.jpg"); /*COMANDO DE INSERÇÃO DE IMAGEM*/
-    background-size: cover; /*EVITA REPETIÇÃO DA IMAGEM*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
     height: 600px;
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
 
 }
 
 .header {
     padding-top: 38px;
     padding-left: 35px;
+    height: 80px;
+    background-color: rgb(131, 18, 18);
 
 }
 
@@ -51,73 +62,6 @@ h1 {
     /* position: relative; */
     margin-top: 600px;
     margin-left: 65px;
-}
-
-form{
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1s linear;
-    background-color: white;
-    border-radius: 10px;
-    float: right; /*ALINHAR À DIREITA*/
-    padding: 20px;
-    margin-top: 100px;
-    margin-right: 50px;
-    position: static;
-
-}
-
-.show-form{
-    visibility: visible;
-    opacity: 1;
-}
-
-.form-header {
-    font-size: 24px;
-    color: #252B42;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-input{
-    display: block;
-    background: #f9f9f9;
-    border: 1px solid #e6e6e6;
-    border-radius: 5px;
-    height: 40px;
-    width: 250px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
-
-textarea{
-    display: block;
-    height: 80px;
-    width: 250px;
-    background: #f9f9f9;
-    border: 1px solid #e6e6e6;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    padding-top: 8px;
-}
-
-label{
-    font-size: 14px;
-    color: #252B42;
-}
-
-button{
-    width: 250px;
-    height: 40px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #3ecf08;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-   
 }
 
 .atuacao-content{
@@ -165,7 +109,7 @@ li{
 
 #about-us{
     background-color: white;
-    color: rgb(4, 4, 59);
+    color: rgb(20, 7, 7);
     padding: 30px;
     clear: left;
 }
@@ -193,7 +137,8 @@ li{
 }
 
 #atuacao{
-    background-color: rgb(4, 4, 59);
+    background-color: rgb(89, 3, 3);
+    /* rgba(47, 40, 40, 0.435) */
     color: white;
     padding: 30px;
 }
@@ -207,8 +152,8 @@ li{
 }
 
 .main-client{
-    background: rgb(9,9,121);
-    background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(255,255,255,1) 50%);
+    /* background: rgb(5, 5, 5);
+    background: linear-gradient(0deg, rgba(5, 5, 5,1) 0%, rgba(255,255,255,1) 50%); */
     /* color: white; */
     padding: 30px;
 }
@@ -239,9 +184,9 @@ li{
 }
 
 footer{
-    height: 100px;
+    height: 80px;
     color: white;
-    background-color:rgb(9, 9, 121);
+    background-color:rgb(89, 3, 3);
 }
 
 .footer-content{
@@ -249,23 +194,6 @@ footer{
     padding-top: 20px;
     text-align: right;
     font-size: 15px;
-}
-
-.divisor1{
-    height: 10px;
-    width: 70%;
-    background-color: red;
-    margin-bottom: 10px;
-    box-shadow: 1px 1px 3px;
-}
-
-.divisor2{
-    height: 10px;
-    width: 70%;
-    position: absolute;
-    right: 0;
-    background-color: red;
-    box-shadow: 1px 1px 3px;
 }
 
 .center-box{
@@ -284,7 +212,7 @@ footer{
     
 }
 .card-title{
-    background-color: rgb(4, 4, 59);
+    background-color: rgb(89, 3, 3);
     color: white;
     text-align: center;
     padding: 20px;
