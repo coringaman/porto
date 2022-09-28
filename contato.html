@@ -12,124 +12,107 @@
     <title>PORTOFINO - Portfólio</title> <!--TÍTULO DO SITE-->
 </head>
 
+
 <body> <!--ONDE ESCREVE AS PARTES APARENTES NO SITE-->
-    <div class="upper-box">
-        <div class="header">
-            <a href="index.html" class="title-header">PORTOFINO</a>
-            <a href="index.html#about-us" class="link-header">Quem Somos</a>
-            <a href="index.html#atuacao" class="link-header">Atuação</a>
-            <a href="portfolio.html" class="link-header">Portfólio</a>
-            <a href="social.html" class="link-header">Social</a>
-            <a href="contato.html" class="link-header">Contato</a>
-            <!-- <a class="link-header" onclick="formtrigger()">Contato</a> -->
+    <div id="capsule">
+        <div class="upper-box">
+            <div class="header">
+                <a href="index.html" class="title-header">PORTOFINO</a>
+                <a href="index.html#about-us" class="link-header">Quem Somos</a>
+                <a href="index.html#atuacao" class="link-header">Atuação</a>
+                <a href="portfolio.html" class="link-header">Portfólio</a>
+                <a href="social.html" class="link-header">Social</a>
+                <a href="contato.html" class="link-header">Contato</a>
+                <!-- <a class="link-header" onclick="formtrigger()">Contato</a> -->
+            </div>
+
+            <!-- <h1>Contatos</h1> -->
+
+            <img id="portologo" src="./PORTO.png">
+
         </div>
 
-        <!-- <h1>Contatos</h1> -->
-
-        <img id="portologo" src="./PORTO.png">
-
-    </div>
-
-    <div id="about-contato">
-        <div class="contato-conteiner">
-            <div class="form-container">
-                <form id="contact-form" action="https://formsubmit.co/contatos@portofinoemp.com.br" method="POST"> 
-                    <h3 class="form-header">Entre em contato</h3>
-        
-                    <label>
-                        Nome
-                        <input type="text" name="Nome" placeholder="Digite Seu Nome" required/>
-        
-                    </label>
-        
-                    <label>
-                        E-mail
-                        <input type="email" name="E-mail" placeholder="Digite Seu E-mail" required/>
-        
-                    </label>
-
-                    <label>
-                        Assunto
-                        <select type="text" name="Assunto">
-                            <option value="Financeiro">Financeiro</option>
-                            <option value="Faturamento">Faturamento</option>
-                            <option value="Contratos">Contratos</option>
-<!--                             <option value="Recursos Humanos">Recursos Humanos</option> -->
-                            <option value="Gerais">Outros</option>
-
-                        </select>
-        
-                    </label>
-        
-                    <label>
-                        Fale Conosco
-                        <textarea name="Info" placeholder="Sua mensagem aqui..."></textarea>
-        
-                    </label>
-        
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
+        <div id="about-contato">
+            <div class="contato-conteiner">
+                <div class="form-container">
+                    <form id="contact-form" action="https://formsubmit.co/contatos@portofinoemp.com.br" method="POST"> 
+                        <h3 class="form-header">Entre em contato</h3>
             
-            <div id="contatos-1">
-                <h1>Contatos</h1>
-                <!-- <h2 id="about-us-title">WhatsApp</h2> -->
-                <!-- <h3 id="about-us-subtitle">WhatsApp</h3>
-                <ul>
-                    <li class="about-text">
-                        Financeiro: (75) 99852-4519
-                    </li>
-                    <li class="about-text">
-                        Faturamento: (75) 99870-8271
-                    </li>
-                    <li class="about-text">
-                        Contratos: (75) 99811-9478
-                    </li> -->
-                    <br>
-                    <h3 id="about-us-subtitle">Canal de Denúncia</h3>
-                    <p class="about-text">
-                        denuncia@portofinoemp.com.br
-                    </p>
+                        <label>
+                            Nome
+                            <input type="text" name="Nome" placeholder="Digite Seu Nome" required/>
+            
+                        </label>
+            
+                        <label>
+                            E-mail
+                            <input type="email" name="E-mail" placeholder="Digite Seu E-mail" required/>
+            
+                        </label>
 
+                        <label>
+                            Assunto
+                            <select type="text" name="Assunto">
+                                <option value="Financeiro">Financeiro</option>
+                                <option value="Faturamento">Faturamento</option>
+                                <option value="Contratos">Contratos</option>
+                                <!-- <option value="Recursos Humanos">Recursos Humanos</option> -->
+                                <option value="Gerais">Outros</option>
+
+                            </select>
+            
+                        </label>
+            
+                        <label>
+                            Fale Conosco
+                            <textarea name="Info" placeholder="Sua mensagem aqui..."></textarea>
+            
+                        </label>
+            
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
                 
-                
-        
+                <div id="contatos-1">
+                    <h1>Contatos</h1>
+                    <!-- <h2 id="about-us-title">WhatsApp</h2> -->
+                    <!-- <h3 id="about-us-subtitle">WhatsApp</h3>
+                    <ul>
+                        <li class="about-text">
+                            Financeiro: (75) 99852-4519
+                        </li>
+                        <li class="about-text">
+                            Faturamento: (75) 99870-8271
+                        </li>
+                        <li class="about-text">
+                            Contratos: (75) 99811-9478
+                        </li> -->
+                        <br>
+                        <h3 id="about-us-subtitle">Canal de Denúncia</h3>
+                        <p class="about-text">
+                            denuncia@portofinoemp.com.br
+                        </p>
+
+                    
+                    
+            
+                </div>
             </div>
         </div>
+
+    
+
+        <footer>
+            <div class="footer-content">
+                <h4>Porto Fino Empreendimentos, Manutenção e Serviços Ltda. </h4>
+                <p>Bahia - Brasil</p>
+            </div>
+        </footer>
+            
+
+
     </div>
-
-   
-
-    <footer>
-        <div class="footer-content">
-            <h4>Porto Fino Empreendimentos, Manutenção e Serviços Ltda. </h4>
-            <p>Rua Walter José Tolentino Alves - n. 130 - Sala 118</p>
-            <p>Centro Edf. Multicenter - Simões Filho - Bahia - CEP 43.700-000 </p>
-        </div>
-    </footer>
-
-
-
-    <!-- <div class="divisor1"></div>
-    <div class="divisor2"></div> -->
-
-        
-        
-
-
-
 </body>
-
-<!-- <script>
-
-let form = document.getElementById("contact-form")
-
-
-function formtrigger(){
-    form.className = "show-form"
-}
-
-</script> -->
 
 
 </html> <!--TAG DE FECHAMENTO-->
