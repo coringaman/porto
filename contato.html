@@ -35,7 +35,7 @@
         <div id="about-contato">
             <div class="contato-conteiner">
                 <div class="form-container">
-                    <form id="contact-form" action="https://formsubmit.co/contatos@portofinoemp.com.br" method="POST"> 
+                    <form id="contact-form" action="https://formsubmit.co/mariela.mendes@portofinoemp.com.br" method="POST"> 
                         <h3 class="form-header">Entre em contato</h3>
             
                         <label>
@@ -52,9 +52,9 @@
 
                         <label>
                             Assunto
-                            <select type="text" name="Assunto">
-                                <option value="Financeiro">Financeiro</option>
-                                <option value="Faturamento">Faturamento</option>
+                            <select id="selection" type="text" name="Assunto" onchange="changeemail()">
+                                <option value="Financeiro" >Financeiro</option>
+                                <option value="Faturamento" >Faturamento</option>
                                 <option value="Contratos">Contratos</option>
                                 <!-- <option value="Recursos Humanos">Recursos Humanos</option> -->
                                 <option value="Gerais">Outros</option>
@@ -68,30 +68,34 @@
                             <textarea name="Info" placeholder="Sua mensagem aqui..."></textarea>
             
                         </label>
+
+                        <!-- <input type="hidden" name="_next" value="https://coringaman.github.io/porto/contato.html"> -->
             
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
                 
                 <div id="contatos-1">
-                    <h1>Contatos</h1>
-                    <!-- <h2 id="about-us-title">WhatsApp</h2> -->
-                    <!-- <h3 id="about-us-subtitle">WhatsApp</h3>
-                    <ul>
-                        <li class="about-text">
-                            Financeiro: (75) 99852-4519
-                        </li>
-                        <li class="about-text">
-                            Faturamento: (75) 99870-8271
-                        </li>
-                        <li class="about-text">
-                            Contratos: (75) 99811-9478
-                        </li> -->
+                    <div id="contact-text">
+                        <h1>Contatos</h1>
+                        
+                            <br>
+                            <h3 id="about-us-subtitle-1">Canal de Denúncia</h3>
+                            <p class="about-text-1">
+                                denuncia@portofinoemp.com.br
+                            </p>
+                    </div>
+
                         <br>
-                        <h3 id="about-us-subtitle">Canal de Denúncia</h3>
-                        <p class="about-text">
-                            denuncia@portofinoemp.com.br
-                        </p>
+                        <div id="pcd-box">
+                            <img src="/PcD.png" id="pcd-image">
+                            <div id="pcd-text">
+                                <h3 id="about-us-subtitle-2">Vagas para Aprendiz e PcD</h3>
+                                <p class="about-text-2">
+                                    aprendiz.pcd@portofinoemp.com.br
+                                </p>
+                            </div>
+                        </div>
 
                     
                     
@@ -112,7 +116,35 @@
 
 
     </div>
+
+    <script>
+
+        let form = document.getElementById("contact-form");
+        let selection = document.getElementById("selection");
+        let option = document.getElementsByTagName("option");
+        
+        function changeemail(){
+
+            // form.action = "https://formsubmit.co/costa.masc@gmail.com";
+
+            // form.setAttribute("action", "https://formsubmit.co/costa.masc@gmail.com");
+
+            if (selection.value == "Financeiro") {
+                form.action = "https://formsubmit.co/mariela.mendes@portofinoemp.com.br"
+            } else if (selection.value == "Faturamento") {
+                form.action = "https://formsubmit.co/sara.silva@portofinoemp.com.br"
+            } else if (selection.value == "Contratos") {
+                form.action = "https://formsubmit.co/monica.santos@portofinoemp.com.br"
+            }
+            else form.action = "https://formsubmit.co/portofino@portofinoemp.com.br"
+        }
+        
+    </script>
+
+
 </body>
+
+
 
 
 </html> <!--TAG DE FECHAMENTO-->
