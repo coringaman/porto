@@ -65,7 +65,7 @@ h1 {
 }
 
 .atuacao-content{
-    color: #252B42;
+    color: rgb(20, 7, 7);
     margin-left: 30px;
     display: inline;
 }
@@ -105,6 +105,7 @@ ul{
 li{
     margin-bottom: 5px;
     margin-left: 10px;
+    list-style: none;
 }
 
 #about-us{
