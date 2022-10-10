@@ -79,7 +79,7 @@ h1 {
     /* visibility: hidden;
     opacity: 0;
     transition: opacity 1s linear; */
-    background-color: rgb(4, 4, 59);
+    background-color: rgb(89, 3, 3);
     border-radius: 10px;
     width: 300px;
     padding: 20px;
@@ -147,24 +147,64 @@ button{
 
 #contatos-1{
     background-color: white;
-    color: rgb(4, 4, 59);
+    color: rgb(20, 7, 7);
     padding: 30px;
     clear: right;
-    text-align: right;
+    float: right;
+    /* text-align: right; */
     /* display: inline-block; */
 }
 
-#about-us-subtitle{
+#contact-text{
+    text-align: right;
+}
+
+#pcd-box{
+    background-color:rgb(89, 3, 3);
+    margin-right: 50px;
+    padding: 20px;
+    width: 430px;
+    height: 120px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+#pcd-image{
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+
+#pcd-text{
+    float: right;
+    /* background-color: green; */
+    color: white;
+    margin-top: 30px;
+    
+}
+
+#about-us-subtitle-1{
     margin-right: 50px;
     margin-left: 10px;
     font-size: 20px;
 }
 
+#about-us-subtitle-2{
+    font-size: 20px;
+}
 
-.about-text{
+
+.about-text-1{
     font-size: 15px;
     text-align: right;
     padding: 10px 50px 10px 10px;
+    
+}
+
+.about-text-2{
+    font-size: 15px;
+    text-align: right;
+    padding: 10px;
     
 }
 
