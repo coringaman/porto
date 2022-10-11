@@ -18,6 +18,14 @@
     height: 600px;
 }
 
+#top-title {
+    display:inline;
+}
+
+#top-links {
+    display:inline;
+}
+
 .header {
     padding-top: 38px;
     padding-left: 35px;
@@ -358,6 +366,8 @@ footer{
     
     #about-us-title{
         text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
         font-size: 30px;
     }
     
@@ -443,6 +453,7 @@ footer{
     
     .footer-content{
         margin-right: 30px;
+        margin-left: 30px;
         padding-top: 20px;
         text-align: right;
         font-size: 15px;
