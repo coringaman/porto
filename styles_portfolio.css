@@ -12,14 +12,19 @@
 }
 
 .upper-box {
-    background-image: url("./tecnicoonjob.jpg"); /*COMANDO DE INSERÇÃO DE IMAGEM*/
+    background-image: url("./tecnicoonjob.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    /* background-position: center; */
     height: 600px;
-    /* background-repeat: no-repeat;
-    background-size: 100% 100%; */
 
+}
+
+#top-title {
+    display:inline;
+}
+
+#top-links {
+    display:inline;
 }
 
 .header {
@@ -44,20 +49,17 @@
     font-size: 14px;
     color: white;
     margin-left: 30px;
-    cursor: pointer; /*MUDA O CURSOR DO MOUSE*/
+    cursor: pointer;
     text-decoration: none;
     text-shadow: 1px 1px 3px black;
 }
 
 #portologo{
     height: 100px;
-    margin-top: 350px;
+    margin-top: 380px;
     margin-bottom: 30px;
     margin-right: 30px;
     float: right;
-    /* display:block;
-    margin-left: auto;
-    background-color: red; */
 }
 
 h1 {
@@ -66,33 +68,7 @@ h1 {
     text-shadow: black 1px 1px 1px;
     display: inline-block;
     margin-top: 270px;
-    /* position: relative; */
-    /* margin-top: 300px; */
     margin-left: 65px;
-    /* background-color: red; */
-}
-
-.atuacao-content{
-    color: #252B42;
-    margin-left: 30px;
-    display: inline;
-}
-
-.atuacao-text{
-    text-align: left;
-    margin-left: 70px;
-    margin-top: 5px;
-}
-
-.atuacao-header{
-    text-align: left;
-    margin-left: 70px;
-    /* margin-top: 5px; */
-}
-
-.atuacao-box{
-    margin-bottom: 20px;
-    height: 100px;
 }
 
 #contratos-1{
@@ -148,3 +124,153 @@ footer{
     font-size: 15px;
 }
 
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+
+    #capsule{
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+        background-color: white;
+
+    }
+
+    .upper-box {
+        background-image: url("./tecnicoonjob.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0px 100px;
+        height: 335px;
+    }
+    
+    .header {
+        padding-top: 30px;
+        padding-left: 0;
+        height: 115px;
+        background-color: rgb(131, 18, 18);
+    }
+
+    #top-title {
+        text-align: center;
+    }
+
+    #top-links {
+        text-align: center;
+        display: block;
+        padding-top: 15px;
+    }
+
+    #somos , #atuar {
+        display: none;
+    }
+
+    #portf{
+        margin: 0;
+    }
+    
+    .title-header {
+        font-size: 24px;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+    
+    .link-header {
+        font-size: 14px;
+        color: white;
+        margin-left: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        text-shadow: 1px 1px 3px black;
+    }
+    
+    #portologo{
+        height: 50px;
+        margin-top: 155px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    
+    }
+    
+    h1 {
+        font-size: 30px;
+        color: white;
+        text-shadow: black 1px 1px 1px;
+        display: inline-block;
+        margin-top: 140px;
+        margin-left: 20px;
+    }
+    
+    #contratos-1{
+        background-color:rgb(89, 3, 3);
+        color: white;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    #contratos-2{
+        background-color: white;
+        color: rgb(20, 7, 7);
+        padding: 20px;
+        clear: left;
+        text-align: right;
+    }
+    
+    #about-us{
+        background-color: white;
+        color: rgb(20, 7, 7);
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        clear: left;
+    }
+    
+    #about-us-title{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 25px;
+    }
+
+    #about-us-subtitle{
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    
+    ul{
+        list-style-position: outside;
+        margin-left: 15px;
+    }
+    
+    .about-text{
+        font-size: 15px;
+        text-align: left;
+        padding: 10px 0px;
+    }
+    
+    .grafico-box{
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    
+    footer{
+        height: 100px;
+        color: white;
+        background-color:rgb(89, 3, 3);
+    }
+    
+    .footer-content{
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-top: 20px;
+        text-align: right;
+        font-size: 15px;
+    }
+
+  }
