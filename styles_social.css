@@ -112,25 +112,23 @@
 .instagram{
     text-decoration: none;
     color: rgb(20, 7, 7);
-    display: block;
-    text-align: center;
-    height: 50px;
+    position: absolute;
     padding-top: 10px;
     padding-bottom: 10px;
+    transform: translateX(100%);
 }
 
 #instagram-icon{
     height: 30px;
-    float: left;
-    margin-left: 35px;
+    /* float: left; */
+    /* margin-left: 35px; */
 }
 
 #instagram-at{
-    /* display: inline-block; */
     font-size: 20px;
-    height: 30px;
-    float: right;
-    margin-right: 30px;
+    display: inline;
+    margin-left: 10px;
+    position: absolute;
 }
 
 .social-text-box{
@@ -296,31 +294,29 @@ footer{
     .instagram{
         text-decoration: none;
         color: rgb(20, 7, 7);
-        display: block;
-        text-align: center;
-        height: 50px;
+        position: absolute;
         padding-top: 10px;
         padding-bottom: 10px;
+        left: 50%;
+        transform: translateX(-525%);
     }
     
     #instagram-icon{
         height: 30px;
-        float: left;
-        margin-left: 35px;
+        /* float: left; */
+        /* margin-left: 35px; */
     }
     
     #instagram-at{
-        /* display: inline-block; */
-        font-size: 19px;
-        height: 30px;
-        float: right;
-        margin-right: 30px;
-        margin-top: 2px;
+        font-size: 20px;
+        display: inline;
+        margin-left: 5px;
+        position: absolute;
     }
 
     .social-text-box{
         text-align: center;
-        padding-top: 30px;
+        padding-top: 80px;
         padding-left: 15px;
         padding-right: 15px;
         
